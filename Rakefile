@@ -20,8 +20,8 @@ namespace :db do
     Student.create_table
   end
 
-  desc ''
+  desc 'seed the database with some dummy data'
   task :seed => :environment do
-
+    require_relative './db/seeds.rb'
   end
 end
