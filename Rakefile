@@ -12,12 +12,12 @@ end
 
 namespace :db do
   desc ''
-  task :migrate do
+  task :migrate => :environment do
 
   end
 
   desc ''
-  task :seed do
+  task :seed => :environment do
 
   end
 end
