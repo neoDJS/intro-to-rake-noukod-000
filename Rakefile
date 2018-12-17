@@ -1,3 +1,7 @@
+task :environment do
+  require './config/environment.rb'
+end
+
 namespace :greeting do
   desc 'outputs hello to the terminal'
   task :hello do
