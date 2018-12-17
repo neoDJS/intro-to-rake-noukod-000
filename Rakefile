@@ -9,3 +9,15 @@ namespace :greeting do
     puts "hola from Rake!"
   end
 end
+
+namespace :db do
+  desc ''
+  task :migrate do
+    
+  end
+
+  desc ''
+  task :seed do
+    
+  end
+end
